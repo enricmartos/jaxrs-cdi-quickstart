@@ -1,4 +1,3 @@
-// generate war
 apply plugin: 'war'
 
 group 'com'
@@ -20,5 +19,5 @@ dependencies {
 }
 
 war {
-    war.archiveName = "jaxrs-cdi-quickstart.war"
+    war.archiveName = "resteasy-dockerized-app.war"
 }

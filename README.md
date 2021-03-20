@@ -1,4 +1,4 @@
-# resteasy-dockerized-app
+# resteasy-dockerized-api
 
 ## Description
 
@@ -15,4 +15,4 @@ It just contains one "Hello World!" endpoint to verify that it runs as expected.
 $ docker-compose up
 ```
 
-- Open your browser and test the application on *http://localhost:8080/resteasy-dockerized-app/api/sayHello*
+- Open your browser and test the application on *http://localhost:8080/resteasy-dockerized-api/api/sayHello*

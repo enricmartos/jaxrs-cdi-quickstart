@@ -19,5 +19,5 @@ dependencies {
 }
 
 war {
-    war.archiveName = "resteasy-dockerized-app.war"
+    war.archiveName = "resteasy-dockerized-api.war"
 }

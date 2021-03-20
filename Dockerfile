@@ -9,7 +9,7 @@ RUN gradle build
 FROM jboss/wildfly
 USER jboss
 RUN /opt/jboss/wildfly/bin/add-user.sh admin Jboss@admin01 --silent
-ENV ARTIFACT_NAME=resteasy-dockerized-app.war
+ENV ARTIFACT_NAME=resteasy-dockerized-api.war
 COPY --from=builder /app/build/libs/$ARTIFACT_NAME /opt/jboss/wildfly/standalone/deployments/
 # JBoss ports
 EXPOSE 8080 9990 8009
